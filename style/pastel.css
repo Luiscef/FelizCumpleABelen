@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  background: linear-gradient(135deg, #ef713b, #dca596);
 }
 
 body,
@@ -146,7 +146,7 @@ html {
 }
 
 .text {
-  top: 500px;
+  top: 400px;
   position: relative;
   flex-direction: column;
   margin-top: 1.5rem;
@@ -186,84 +186,3 @@ html {
 }
 
 
-@media (min-width: 438px) {
-  @import url(https://fonts.googleapis.com/css?family=Lato:300italic);
-
-  html,
-  body {
-    width: 100%;
-    height: 100%;
-  }
-
-  body {
-    background: #252432;
-  }
-#cake-container {
-  transform: scale(1.0);
-  transform-origin: center;
-}
-  #cake {
-    display: block;
-    position: relative;
-    margin: -10em auto 0 auto;
-  }
-
-  .candle {
-    background: #ffffff;
-    border-radius: 10px;
-    position: absolute;
-    top: 228px;
-    left: 50%;
-    margin-left: -2.4px;
-    margin-top: -8.33333333px;
-    width: 5px;
-    height: 35px;
-    transform: translateY(-300px);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -webkit-animation: in 500ms 6s ease-out forwards;
-    animation: in 500ms 6s ease-out forwards;
-  }
-
-  .candle:after,
-  .candle:before {
-    background: rgba(255, 0, 0, 0.4);
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2.22222222px;
-  }
-
-  .candle:after {
-    top: 25%;
-    left: 0;
-  }
-
-  .candle:before {
-    top: 45%;
-    left: 0;
-  }
-
-  .fire {
-    border-radius: 100%;
-    position: absolute;
-    top: -20px;
-    left: 50%;
-    margin-left: -2.6px;
-    width: 6.66666667px;
-    height: 18px;
-  }
-
-  .text {
-    top: 50px;
-    color: #d1d1d1;
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-    text-align: center;
-  }
-
-  .text .btn {
-        transform: scale(1.0);
-  }
-}
