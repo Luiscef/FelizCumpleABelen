@@ -177,12 +177,11 @@ html {
 }
 
 .text .btn:hover {
-  transform: scale(1.05);
+  transform: scale(3.05);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
 }
 
 .text .btn:active {
-  transform: scale(0.95);
+  transform: scale(2.95);
 }
-
 
